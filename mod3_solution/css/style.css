@@ -1,0 +1,94 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+		background-color: #03fcfc;
+}
+
+#header-nav {
+  background-color: coral;
+}
+
+.text-center {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.container section {
+	background-color: red;
+	padding: 40px;
+	height: auto;
+}
+
+.container section h2 {
+    text-align: center;
+}
+
+ .navbar-toggle {
+  background-color: grey;
+  border: 1px solid transparent;
+   float: right;
+}
+
+button {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+  background-color: red;
+
+}
+
+.navbar-header button .navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+
+}
+
+#collapsable-nav {
+	text-align: center;
+	font-size: 1.5em;
+	background-color: white;
+	border: solid black 1px;
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-bottom: -20px;
+}
+
+#collapsable-nav span {
+	color: black;
+}
+
+#collapsable-nav br {
+		border: solid black 1px;
+		margin-right: 5px;
+}
+
+.navbar-toggle {
+	float: right;
+	border: solid black 1px;
+	border-radius: 5px;
+	height: 30px;
+	width: 30px;
+}
+
+@media (min-width: 768px) {
+  .navbar-toggle {
+     visibility: hidden;
+  }
+}
+
+.icon-bar {
+	background-color: black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+
